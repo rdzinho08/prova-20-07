@@ -1,4 +1,4 @@
-import {Bibliotecadelivros} from '../config/db.js';
+import Bibliotecadelivros from '../config/db.js';
 
 export const listarLivros = (req, res) => {
     res.json(Bibliotecadelivros);

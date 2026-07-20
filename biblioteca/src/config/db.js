@@ -28,4 +28,4 @@ const Bibliotecadelivros = [
   estoque: 15,
   }];
   
-  export default Bibliotecadelivros;
+  export { Bibliotecadelivros };
